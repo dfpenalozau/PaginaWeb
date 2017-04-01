@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pagina</title>
+</head>
+<body>
+<script>
+
+function ejecutarid(){
+    alert(ID.value);
+}
+
+function ejecutarnombre(){
+    alert(Nombre.value);
+}
+
+function ejecutaredad(){
+    alert(Edad.value);
+}
+
+</script>
+
+<style>
+    .cuadro{
+        border: 1px;
+        height: 15px;
+        background-color: #FF0000;
+    }
+
+    #boton{
+        border: 5px;
+    }
+
+</style>
+<form>
+    <br>
+    <label><FONT face="Arial">ID: </FONT></FONT></label><input type="text" onclick="ejecutarid()" class="cuadro" id="ID">
+    <br>
+    <br>
+    <label><FONT face="Arial">Nombre: </FONT></FONT></label><input type="text" onclick="ejecutarnombre()" class="cuadro" id="Nombre">
+    <br>
+    <br>
+    <label><FONT face="Arial">Edad: </FONT></FONT></label><input type="text" onclick="ejecutaredad()" class="cuadro" id="Edad">
+    <br>
+    <br>
+    <input type="submit" value="ACEPTAR" id="boton">
+</form>
+</body>
+</html>
